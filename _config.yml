@@ -60,8 +60,6 @@ content:
           Implemented secure quote-to-order workflows, including payment verification, QR-based tracking, 
           and role-based access control (RBAC). Integrated QuickBooks for financial management and 
           developed an AI-based forecasting system to support inventory and business decision-making.
-          
-          <mark>Tech:</mark> Node.js, Express, MongoDB, React, Docker
 
       - layout: top-middle
         title: "ShopRAR: E-Commerce Management System"
@@ -72,8 +70,6 @@ content:
           Designed and implemented complex T-SQL stored procedures, analytics queries, and 
           database optimizations. Integrated Azure Cosmos DB for logging and extended data handling.
           
-          <mark>Tech:</mark> C#, .NET 9, SQL Server, Azure Cosmos DB
-
       - layout: top-middle
         title: ArtiStreet
         quote: >
@@ -83,8 +79,6 @@ content:
           Implemented a real-time chatbot using WebSockets to enhance user interaction and 
           integrated payment systems for seamless transactions.
           
-          <mark>Tech:</mark> Python, Django, Bootstrap, SQLite
-
       - layout: top-middle
         title: Global COVID-19 Data Analysis
         quote: >
@@ -95,7 +89,6 @@ content:
           evaluate mortality and case prediction performance. Visualized trends using advanced 
           data visualization techniques.
           
-          <mark>Tech:</mark> Python, pandas, scikit-learn, NumPy, Matplotlib, Seaborn
 
       - layout: top-middle
         title: Urdu News Article Classification
@@ -106,7 +99,6 @@ content:
           Multinomial Naive Bayes, and a PyTorch-based neural network. Achieved up to 97.8% accuracy 
           in categorizing Urdu news articles through effective preprocessing and model optimization.
           
-          <mark>Tech:</mark> Python, scikit-learn, PyTorch, pandas, Jupyter Notebook
 
       - layout: top-middle
         title: Command Line Shell
@@ -116,22 +108,44 @@ content:
           Implemented a custom command-line shell in C, replicating core UNIX functionalities 
           such as command execution, pipelining, and command chaining. Focused on process 
           management and system-level programming concepts.
-          
-          <mark>Tech:</mark> C, Docker
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        title: Lahore University of Management Sciences (LUMS)
+        sub_title: Teaching Assistant
+        caption: September 2025 - December 2025 · Lahore, Pakistan
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          Supported applied statistics coursework through teaching, evaluation, and student engagement.
+        description: |
+          Managed tutorials, attendance, and grading for applied statistics courses.
+          Provided timely academic support and feedback to students through Discord and email,
+          helping improve understanding of core statistical concepts.
+
+      - layout: left
+        title: Truck It In
+        sub_title: Web Development Intern
+        caption: July 2025 - August 2025 · Islamabad, Pakistan
+        quote: >
+          Built scalable full-stack applications using the MERN stack with real-world features.
+        description: |
+          Developed a full-stack MERN notes application with RESTful CRUD APIs, MongoDB integration,
+          and Redis-based rate limiting for improved performance and security.
+
+          Built a MERN-based e-commerce application with Stripe payment integration, persistent cart state,
+          and a complete end-to-end checkout flow.
+
+      - layout: left
+        title: Lahore University of Management Sciences (LUMS)
+        sub_title: Research Intern
+        caption: October 2024 - January 2025 · Lahore, Pakistan
+        quote: >
+          Contributed to healthcare-focused research through data preparation and model support.
+        description: |
+          Assisted in developing a migraine-focused healthcare application for the CSALT Lab.
+          Contributed to data collection, annotation, and organization to support research workflows
+          and machine learning model development.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
