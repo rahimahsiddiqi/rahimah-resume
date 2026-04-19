@@ -113,7 +113,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: Lahore University of Management Sciences (LUMS)
+        title: Lahore University of Management Sciences
         sub_title: Teaching Assistant
         caption: September 2025 - December 2025 · Lahore, Pakistan
         quote: >
@@ -137,7 +137,7 @@ content:
           and a complete end-to-end checkout flow.
 
       - layout: left
-        title: Lahore University of Management Sciences (LUMS)
+        title: Center for Speech and Language Technologies
         sub_title: Research Intern
         caption: October 2024 - January 2025 · Lahore, Pakistan
         quote: >
@@ -147,31 +147,45 @@ content:
           Contributed to data collection, annotation, and organization to support research workflows
           and machine learning model development.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: Lahore University of Management Sciences
+        sub_title: BS Computer Science
+        caption: August 2022 - June 2026
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          Pursuing a strong foundation in computer science with a focus on software development, data systems, and machine learning.
+        description: |
+          Studied a comprehensive range of core and advanced computer science subjects including Machine Learning, Artificial Intelligence,
+          Data Science, Databases, Operating Systems, Data Structures, Software Engineering, Theory of Automata, and Applied Statistics.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          Built a strong analytical and problem-solving foundation through rigorous coursework and practical projects,
+          while consistently performing well in a competitive academic environment.
+
+      - layout: left
+        title: Beaconhouse School System
+        sub_title: GCE A Levels
+        caption: 2020 - 2022
+        quote: >
+          Achieved academic excellence in a highly competitive pre-university program.
+        description: |
+          Completed A Levels with a focus on Physics, Computer Science, and Mathematics, demonstrating strong quantitative
+          and logical reasoning skills.
+
+          Awarded a 100% merit-based scholarship in recognition of outstanding academic performance and consistent excellence.
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+    content: |
+      Alongside my work in software engineering and data-driven systems, I bring a strong technical skill set across multiple languages, frameworks, and tools:
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      <mark>Languages & Frameworks:</mark> Python, C, C++, JavaScript, SQL, Haskell, MERN, Django, HTML, Tailwind CSS, .NET
+      <mark>Developer Tools & Platforms:</mark> Git, Docker, Microsoft Azure, Cloudinary, Pandas, Scikit-learn, Figma, LaTeX, Selenium, SonarQube, Jira, Postman, Upstash, Jupyter Notebook, MATLAB, Excel, Canva
+
+      Outside of academics and development, I enjoy staying active through strength training and exploring my creative side through music. I play the guitar and sing, and have been actively involved in music communities.
+
+      I have taken on multiple roles within music societies at LUMS and previously at Beaconhouse School System, contributing to performances, collaborations, and event organization. These experiences have strengthened my teamwork, creativity, and ability to perform under pressure.
 
 # Footer
 footer_show_references: true
