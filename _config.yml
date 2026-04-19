@@ -52,7 +52,7 @@ content:
     content:
 
       - layout: top-middle
-        title: ARKAD: Inventory Management System
+        title: "ARKAD: Inventory Management System"
         quote: >
           A full-stack B2B e-commerce platform with secure workflows and intelligent forecasting.
         description: |
@@ -64,7 +64,7 @@ content:
           <mark>Tech:</mark> Node.js, Express, MongoDB, React, Docker
 
       - layout: top-middle
-        title: ShopRAR: E-Commerce Management System
+        title: "ShopRAR: E-Commerce Management System"
         quote: >
           A robust console-based e-commerce system with advanced database and analytics integration.
         description: |
