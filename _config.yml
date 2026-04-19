@@ -23,13 +23,13 @@ linkedin_username: rahimahsiddiqi
 # Email, phone, website as same circular buttons as GitHub/LinkedIn (see _includes/a.html for mailto/tel)
 additional_links:
   - title: Email
-    icon: fas fa-envelope
+    icon: fas fa-fw fa-envelope
     url: "mailto:rahimah.siddiqi432@gmail.com"
   - title: Phone
-    icon: fas fa-phone
+    icon: fas fa-fw fa-phone
     url: "tel:+923457777745"
   - title: Website
-    icon: fas fa-globe
+    icon: fas fa-fw fa-globe
     url: "https://rahimahsiddiqi.github.io/rahimah-resume/"
 
 # Google Analytics and Tag Manager
@@ -56,38 +56,34 @@ content:
         quote: >
           A full-stack B2B e-commerce platform with secure workflows and intelligent forecasting.
         description: |
-          Built a full-stack MERN-based B2B e-commerce platform with dedicated admin and customer portals. 
-          Implemented secure quote-to-order workflows, including payment verification, QR-based tracking, 
-          and role-based access control (RBAC). Integrated QuickBooks for financial management and 
-          developed an AI-based forecasting system to support inventory and business decision-making.
+          - Built a full-stack MERN-based B2B e-commerce platform with dedicated admin and customer portals. 
+          - Implemented secure quote-to-order workflows, including payment verification, QR-based tracking, and role-based access control (RBAC). 
+          - Integrated QuickBooks for financial management and developed an AI-based forecasting system to support inventory and business decision-making.
 
       - layout: top-middle
         title: "ShopRAR: E-Commerce Management System"
         quote: >
           A robust console-based e-commerce system with advanced database and analytics integration.
         description: |
-          Developed a C# console-based e-commerce management system backed by Azure SQL Server. 
-          Designed and implemented complex T-SQL stored procedures, analytics queries, and 
-          database optimizations. Integrated Azure Cosmos DB for logging and extended data handling.
+          - Developed a C# console-based e-commerce management system backed by Azure SQL Server. 
+          - Designed and implemented complex T-SQL stored procedures, analytics queries, and database optimizations. Integrated Azure Cosmos DB for logging and extended data handling.
           
       - layout: top-middle
         title: ArtiStreet
         quote: >
           A full-stack art marketplace with real-time communication and payment integration.
         description: |
-          Built a Django-based full-stack marketplace for artists to showcase and sell artwork. 
-          Implemented a real-time chatbot using WebSockets to enhance user interaction and 
-          integrated payment systems for seamless transactions.
+          - Built a Django-based full-stack marketplace for artists to showcase and sell artwork. 
+          - Implemented a real-time chatbot using WebSockets to enhance user interaction and integrated payment systems for seamless transactions.
           
       - layout: top-middle
         title: Global COVID-19 Data Analysis
         quote: >
           A data-driven analysis project focused on predicting COVID-19 trends using machine learning.
         description: |
-          Performed comprehensive data analysis on global COVID-19 datasets using OWID data. 
-          Implemented regression models with feature engineering and hyperparameter tuning to 
-          evaluate mortality and case prediction performance. Visualized trends using advanced 
-          data visualization techniques.
+          - Performed comprehensive data analysis on global COVID-19 datasets using OWID data. 
+          - Implemented regression models with feature engineering and hyperparameter tuning to evaluate mortality and case prediction performance. 
+          - Visualized trends using advanced data visualization techniques.
           
 
       - layout: top-middle
@@ -95,9 +91,9 @@ content:
         quote: >
           A machine learning project achieving high-accuracy classification of Urdu news articles.
         description: |
-          Developed and evaluated multiple classification models including Logistic Regression, 
-          Multinomial Naive Bayes, and a PyTorch-based neural network. Achieved up to 97.8% accuracy 
-          in categorizing Urdu news articles through effective preprocessing and model optimization.
+          - Developed and evaluated multiple classification models including Logistic Regression, 
+          Multinomial Naive Bayes, and a PyTorch-based neural network. 
+          - Achieved up to 97.8% accuracy in categorizing Urdu news articles through effective preprocessing and model optimization.
           
 
       - layout: top-middle
@@ -105,9 +101,9 @@ content:
         quote: >
           A lightweight UNIX-style shell built from scratch with core command execution features.
         description: |
-          Implemented a custom command-line shell in C, replicating core UNIX functionalities 
-          such as command execution, pipelining, and command chaining. Focused on process 
-          management and system-level programming concepts.
+          - Implemented a custom command-line shell in C, replicating core UNIX functionalities 
+          such as command execution, pipelining, and command chaining. 
+          - Focused on process management and system-level programming concepts.
 
   - title: Experience
     layout: list
@@ -119,8 +115,8 @@ content:
         quote: >
           Supported applied statistics coursework through teaching, evaluation, and student engagement.
         description: |
-          Managed tutorials, attendance, and grading for applied statistics courses.
-          Provided timely academic support and feedback to students through Discord and email,
+          For this role, I managed tutorials, attendance, and grading for applied statistics courses.
+          I provided timely academic support and feedback to students through Discord and email,
           helping improve understanding of core statistical concepts.
 
       - layout: left
@@ -130,10 +126,8 @@ content:
         quote: >
           Built scalable full-stack applications using the MERN stack with real-world features.
         description: |
-          Developed a full-stack MERN notes application with RESTful CRUD APIs, MongoDB integration,
-          and Redis-based rate limiting for improved performance and security.
-
-          Built a MERN-based e-commerce application with Stripe payment integration, persistent cart state,
+          I developed a full-stack MERN notes application with RESTful CRUD APIs, MongoDB integration,
+          and Redis-based rate limiting for improved performance and security. I also built a MERN-based e-commerce application with Stripe payment integration, persistent cart state,
           and a complete end-to-end checkout flow.
 
       - layout: left
@@ -143,8 +137,7 @@ content:
         quote: >
           Contributed to healthcare-focused research through data preparation and model support.
         description: |
-          Assisted in developing a migraine-focused healthcare application for the CSALT Lab.
-          Contributed to data collection, annotation, and organization to support research workflows
+          I assisted in developing a migraine-focused healthcare application for the CSALT Lab. I also contributed to data collection, annotation, and organization to support research workflows
           and machine learning model development.
 
   - title: Education
@@ -154,21 +147,14 @@ content:
         title: Lahore University of Management Sciences
         sub_title: BS Computer Science
         caption: August 2022 - June 2026
-        quote: >
-          Pursuing a strong foundation in computer science with a focus on software development, data systems, and machine learning.
         description: |
           Studied a comprehensive range of core and advanced computer science subjects including Machine Learning, Artificial Intelligence,
           Data Science, Databases, Operating Systems, Data Structures, Software Engineering, Theory of Automata, and Applied Statistics.
-
-          Built a strong analytical and problem-solving foundation through rigorous coursework and practical projects,
-          while consistently performing well in a competitive academic environment.
 
       - layout: left
         title: Beaconhouse School System
         sub_title: GCE A Levels
         caption: 2020 - 2022
-        quote: >
-          Achieved academic excellence in a highly competitive pre-university program.
         description: |
           Completed A Levels with a focus on Physics, Computer Science, and Mathematics, demonstrating strong quantitative
           and logical reasoning skills.
@@ -178,15 +164,10 @@ content:
   - title: A Little More About Me
     layout: text
     content: |
-      Alongside my work in software engineering and data-driven systems, I bring a strong technical skill set across multiple languages, frameworks, and tools:
+      
+      Technical Skills: Python, C, C++, JavaScript, SQL, Haskell, MERN, Django, HTML, Tailwind CSS, .NET, Git, Docker, Microsoft Azure, Cloudinary, Pandas, Scikit-learn, Figma, LaTeX, Selenium, SonarQube, Jira, Postman, Upstash, Jupyter Notebook, MATLAB, Excel, Canva
 
-      <mark>Languages & Frameworks:</mark> Python, C, C++, JavaScript, SQL, Haskell, MERN, Django, HTML, Tailwind CSS, .NET
-      <mark>Developer Tools & Platforms:</mark> Git, Docker, Microsoft Azure, Cloudinary, Pandas, Scikit-learn, Figma, LaTeX, Selenium, SonarQube, Jira, Postman, Upstash, Jupyter Notebook, MATLAB, Excel, Canva
-
-      Outside of academics and development, I enjoy staying active through strength training and exploring my creative side through music. I play the guitar and sing, and have been actively involved in music communities.
-
-      I have taken on multiple roles within music societies at LUMS and previously at Beaconhouse School System, contributing to performances, collaborations, and event organization. These experiences have strengthened my teamwork, creativity, and ability to perform under pressure.
-
+      Outside of academics and development, I enjoy staying active through strength training and exploring my creative side through music. I play the guitar and sing, and have been actively involved in music communities. 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
