@@ -1,0 +1,7 @@
+{% assign h = include.href | strip %}
+{% if h contains "mailto:" or h contains "tel:" %}
+<a href="{{ h }}" class="{{ include.class }}">
+{% else %}
+{% assign protocol = h | slice: 0, 4 %}
+<a href="{% if protocol != 'http' %}//{% endif %}{{ h }}" target="_blank" class="{{ include.class }}">
+{% endif %}
