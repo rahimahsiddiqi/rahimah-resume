@@ -47,24 +47,77 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>Python</mark>, <mark>C/C++</mark>, <mark>JavaScript</mark>, <mark>TypeScript</mark>, <mark>MERN</mark>, and <mark>SQL</mark>, 
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
+
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        title: ARKAD: Inventory Management System
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          A full-stack B2B e-commerce platform with secure workflows and intelligent forecasting.
+        description: |
+          Built a full-stack MERN-based B2B e-commerce platform with dedicated admin and customer portals. 
+          Implemented secure quote-to-order workflows, including payment verification, QR-based tracking, 
+          and role-based access control (RBAC). Integrated QuickBooks for financial management and 
+          developed an AI-based forecasting system to support inventory and business decision-making.
+          
+          <mark>Tech:</mark> Node.js, Express, MongoDB, React, Docker
+
+      - layout: top-middle
+        title: ShopRAR: E-Commerce Management System
+        quote: >
+          A robust console-based e-commerce system with advanced database and analytics integration.
+        description: |
+          Developed a C# console-based e-commerce management system backed by Azure SQL Server. 
+          Designed and implemented complex T-SQL stored procedures, analytics queries, and 
+          database optimizations. Integrated Azure Cosmos DB for logging and extended data handling.
+          
+          <mark>Tech:</mark> C#, .NET 9, SQL Server, Azure Cosmos DB
+
+      - layout: top-middle
+        title: ArtiStreet
+        quote: >
+          A full-stack art marketplace with real-time communication and payment integration.
+        description: |
+          Built a Django-based full-stack marketplace for artists to showcase and sell artwork. 
+          Implemented a real-time chatbot using WebSockets to enhance user interaction and 
+          integrated payment systems for seamless transactions.
+          
+          <mark>Tech:</mark> Python, Django, Bootstrap, SQLite
+
+      - layout: top-middle
+        title: Global COVID-19 Data Analysis
+        quote: >
+          A data-driven analysis project focused on predicting COVID-19 trends using machine learning.
+        description: |
+          Performed comprehensive data analysis on global COVID-19 datasets using OWID data. 
+          Implemented regression models with feature engineering and hyperparameter tuning to 
+          evaluate mortality and case prediction performance. Visualized trends using advanced 
+          data visualization techniques.
+          
+          <mark>Tech:</mark> Python, pandas, scikit-learn, NumPy, Matplotlib, Seaborn
+
+      - layout: top-middle
+        title: Urdu News Article Classification
+        quote: >
+          A machine learning project achieving high-accuracy classification of Urdu news articles.
+        description: |
+          Developed and evaluated multiple classification models including Logistic Regression, 
+          Multinomial Naive Bayes, and a PyTorch-based neural network. Achieved up to 97.8% accuracy 
+          in categorizing Urdu news articles through effective preprocessing and model optimization.
+          
+          <mark>Tech:</mark> Python, scikit-learn, PyTorch, pandas, Jupyter Notebook
+
+      - layout: top-middle
+        title: Command Line Shell
+        quote: >
+          A lightweight UNIX-style shell built from scratch with core command execution features.
+        description: |
+          Implemented a custom command-line shell in C, replicating core UNIX functionalities 
+          such as command execution, pipelining, and command chaining. Focused on process 
+          management and system-level programming concepts.
+          
+          <mark>Tech:</mark> C, Docker
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
