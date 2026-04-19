@@ -37,7 +37,7 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Computer Science Undergraduate from LUMS passionate about full-stack development and data-driven systems. I’ve built scalable applications using the MERN stack, .NET, and Python, and worked on projects ranging from e-commerce platforms to machine learning models. I enjoy turning ideas into practical solutions and continuously exploring new technologies.
 
