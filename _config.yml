@@ -1,4 +1,7 @@
 # Site
+# GitHub Pages project site: assets must use baseurl or links break (profile image, CSS, etc.)
+url: "https://rahimahsiddiqi.github.io"
+baseurl: "/rahimah-resume"
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
 
