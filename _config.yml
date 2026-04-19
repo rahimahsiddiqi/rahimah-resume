@@ -6,17 +6,16 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
-
+name: Rahimah Siddiqi
+title: BS Computer Science · LUMS
+email: rahimah.siddiqi432@gmail.com
+website: https://rahimahsiddiqi.github.io/rahimah-resume/
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 twitter_username: facespics
-github_username:  sproogen
+github_username:  rahimahsiddiqi
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
