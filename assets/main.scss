@@ -3,3 +3,9 @@
 ---
 
 @import 'modern-resume-theme';
+
+// Match solid (fas) icons to brand (fab) icons in header circles
+.header-right .icons li .button--sacnite i.fas {
+  font-size: 1em;
+  vertical-align: middle;
+}

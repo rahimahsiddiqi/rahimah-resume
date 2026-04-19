@@ -8,10 +8,8 @@ version: 2
 # Personal info
 name: Rahimah Siddiqi
 title: BS Computer Science · LUMS
-# Used by jekyll-seo-tag; contact row uses icon links below (no duplicate email line).
+# Used by jekyll-seo-tag. Contact uses circular icons in additional_links (no plain-text block).
 email: rahimah.siddiqi432@gmail.com
-# Shown as plain text under the icon row (not a round icon). Replace with your real number.
-phone: "+92 345 7777745"
 # Dark Mode (true/false/never)
 darkmode: false
 
@@ -19,11 +17,14 @@ darkmode: false
 github_username: rahimahsiddiqi
 linkedin_username: rahimahsiddiqi
 
-# Extra round icons (mailto / site URL). Theme bugfix: local _includes/a.html so mailto: works.
+# Email, phone, website as same circular buttons as GitHub/LinkedIn (see _includes/a.html for mailto/tel)
 additional_links:
   - title: Email
     icon: fas fa-envelope
     url: "mailto:rahimah.siddiqi432@gmail.com"
+  - title: Phone
+    icon: fas fa-phone
+    url: "tel:+923457777745"
   - title: Website
     icon: fas fa-globe
     url: "https://rahimahsiddiqi.github.io/rahimah-resume/"
